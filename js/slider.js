@@ -2,9 +2,9 @@
 
 const slides = [
 
-"images/banner1.jpg",
+"images/banner1.png",
 
-"images/banner2.jpg"
+"images/banner2.png"
 
 ];
 
