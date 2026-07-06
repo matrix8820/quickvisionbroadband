@@ -579,3 +579,174 @@ z-index:999;
 width:65px;
 
 }
+
+/* HERO */
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px;
+background:linear-gradient(135deg,#021a52,#004cff);
+color:#fff;
+gap:40px;
+}
+
+.hero-left{
+width:55%;
+}
+
+.hero-left h1{
+font-size:58px;
+line-height:1.2;
+}
+
+.hero-left p{
+font-size:20px;
+margin:20px 0;
+}
+
+.hero-right{
+width:35%;
+background:#03298f;
+padding:30px;
+border-radius:20px;
+color:white;
+}
+
+.hero-right ul{
+list-style:none;
+line-height:2.4;
+font-size:18px;
+padding:0;
+}
+
+/* BUTTONS */
+
+.btn{
+padding:15px 35px;
+background:#00a2ff;
+border-radius:40px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+display:inline-block;
+}
+
+.btn2{
+padding:15px 35px;
+background:white;
+border-radius:40px;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+color:#005bff;
+display:inline-block;
+}
+
+/* LOGIN */
+
+.loginbox{
+display:flex;
+justify-content:center;
+gap:15px;
+margin:40px 0;
+}
+
+.login,
+.agent{
+padding:14px 25px;
+border-radius:10px;
+color:white;
+text-decoration:none;
+}
+
+.login{
+background:#002f8f;
+}
+
+.agent{
+background:#10a522;
+}
+
+/* RECHARGE */
+
+.recharge{
+background:white;
+padding:50px;
+width:420px;
+margin:60px auto;
+border-radius:20px;
+box-shadow:0 5px 30px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.recharge input{
+width:100%;
+padding:15px;
+margin:15px 0;
+border:1px solid #ddd;
+border-radius:10px;
+box-sizing:border-box;
+}
+
+.recharge button{
+width:100%;
+padding:15px;
+background:#009c2a;
+border:none;
+color:white;
+font-size:18px;
+border-radius:10px;
+cursor:pointer;
+}
+
+/* OTT */
+
+.ott{
+padding:60px;
+text-align:center;
+}
+
+.ottgrid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:30px;
+align-items:center;
+}
+
+.ottgrid img{
+width:120px;
+margin:auto;
+display:block;
+}
+
+/* CONTACT */
+
+.contact{
+padding:60px;
+text-align:center;
+background:#f7f7f7;
+}
+
+/* FOOTER */
+
+footer{
+background:#021a52;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+z-index:999;
+}
+
+.whatsapp img{
+width:65px;
+}
