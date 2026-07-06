@@ -6,578 +6,55 @@ font-family:Arial,sans-serif;
 }
 
 body{
-
 background:#f5f7fb;
-
 overflow-x:hidden;
-
 }
 
+/* TOPBAR */
 
 .topbar{
-
 background:#021f7a;
-
 color:white;
-
 padding:12px 5%;
-
 display:flex;
-
 justify-content:space-between;
-
 font-size:14px;
-
 }
 
+/* NAVBAR */
 
 .navbar{
-
 background:white;
-
 display:flex;
-
 justify-content:space-between;
-
 align-items:center;
-
 padding:20px 5%;
-
 box-shadow:0 2px 15px rgba(0,0,0,.08);
-
 position:sticky;
-
 top:0;
-
 z-index:999;
-
 }
 
 .logo{
-
 height:70px;
-
 }
-
 
 .navbar ul{
-
 display:flex;
-
 gap:35px;
-
 list-style:none;
-
 }
-
 
 .navbar a{
-
 text-decoration:none;
-
 font-size:17px;
-
 font-weight:600;
-
 color:#222;
-
 transition:.3s;
-
 }
-
 
 .navbar a:hover{
-
 color:#005cff;
-
-}
-
-
-.hero{
-
-height:700px;
-
-background:
-
-linear-gradient(
-
-rgba(0,25,80,.55),
-
-rgba(0,25,80,.55)
-
-),
-
-url("images/banner1.png");
-
-background-size:cover;
-
-background-position:center;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-text-align:center;
-
-}
-
-
-.overlay{
-
-color:white;
-
-}
-
-
-.hero h1{
-
-font-size:70px;
-
-font-weight:800;
-
-margin-bottom:20px;
-
-}
-
-
-.hero p{
-
-font-size:30px;
-
-margin-bottom:30px;
-
-}
-
-
-.btn{
-
-background:white;
-
-padding:18px 45px;
-
-border-radius:40px;
-
-text-decoration:none;
-
-font-size:18px;
-
-font-weight:700;
-
-color:#005cff;
-
-display:inline-block;
-
-transition:.4s;
-
-}
-
-
-.btn:hover{
-
-background:#005cff;
-
-color:white;
-
-}
-
-
-.plans{
-
-padding:80px 5%;
-
-text-align:center;
-
-}
-
-
-.plans h2{
-
-font-size:40px;
-
-margin-bottom:50px;
-
-color:#021f7a;
-
-}
-
-
-.cards{
-
-display:grid;
-
-grid-template-columns:
-
-repeat(auto-fit,minmax(220px,1fr));
-
-gap:25px;
-
-}
-
-
-.card{
-
-background:white;
-
-padding:40px;
-
-border-radius:20px;
-
-box-shadow:
-
-0 5px 25px rgba(0,0,0,.08);
-
-font-size:28px;
-
-font-weight:bold;
-
-transition:.3s;
-
-}
-
-
-.card:hover{
-
-transform:translateY(-10px);
-
-box-shadow:
-
-0 15px 40px rgba(0,0,0,.15);
-
-}
-
-
-.ott{
-
-padding:80px 5%;
-
-text-align:center;
-
-background:white;
-
-}
-
-
-.ott h2{
-
-font-size:40px;
-
-margin-bottom:40px;
-
-color:#021f7a;
-
-}
-
-
-.ottgrid{
-
-display:grid;
-
-grid-template-columns:
-
-repeat(auto-fit,minmax(140px,1fr));
-
-gap:30px;
-
-align-items:center;
-
-}
-
-
-.ottgrid img{
-
-width:110px;
-
-transition:.3s;
-
-}
-
-
-.ottgrid img:hover{
-
-transform:scale(1.1);
-
-}
-
-
-.contact{
-
-padding:80px 5%;
-
-background:#021f7a;
-
-color:white;
-
-text-align:center;
-
-}
-
-
-.contact h2{
-
-font-size:42px;
-
-margin-bottom:25px;
-
-}
-
-
-.contact p{
-
-font-size:20px;
-
-line-height:2;
-
-}
-
-
-footer{
-
-background:#01114e;
-
-color:white;
-
-padding:25px;
-
-text-align:center;
-
-font-size:15px;
-
-}
-
-
-@media(max-width:768px){
-
-.topbar{
-
-flex-direction:column;
-
-gap:10px;
-
-text-align:center;
-
-}
-
-
-.navbar{
-
-flex-direction:column;
-
-gap:20px;
-
-}
-
-
-.navbar ul{
-
-flex-direction:column;
-
-text-align:center;
-
-}
-
-
-.hero{
-
-height:500px;
-
-}
-
-
-.hero h1{
-
-font-size:40px;
-
-}
-
-
-.hero p{
-
-font-size:22px;
-
-}
-
-
-}
-.hero{
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-padding:80px;
-
-}
-
-
-.hero-left{
-
-width:55%;
-
-}
-
-
-.hero-right{
-
-width:35%;
-
-background:#03298f;
-
-padding:30px;
-
-border-radius:20px;
-
-color:white;
-
-}
-
-
-.hero-right ul{
-
-list-style:none;
-
-line-height:2.4;
-
-font-size:18px;
-
-}
-
-
-.btn2{
-
-padding:15px 35px;
-
-background:white;
-
-border-radius:40px;
-
-text-decoration:none;
-
-margin-left:20px;
-
-font-weight:bold;
-
-color:#005bff;
-
-}
-
-
-.loginbox{
-
-display:flex;
-
-gap:15px;
-
-}
-
-
-.login{
-
-padding:14px 25px;
-
-background:#002f8f;
-
-border-radius:10px;
-
-color:white;
-
-text-decoration:none;
-
-}
-
-
-.agent{
-
-padding:14px 25px;
-
-background:#10a522;
-
-border-radius:10px;
-
-color:white;
-
-text-decoration:none;
-
-}
-
-
-
-.recharge{
-
-background:white;
-
-padding:50px;
-
-width:420px;
-
-margin:60px auto;
-
-border-radius:20px;
-
-box-shadow:0 5px 30px rgba(0,0,0,.1);
-
-text-align:center;
-
-}
-
-
-.recharge input{
-
-width:100%;
-
-padding:15px;
-
-margin:15px 0;
-
-border:1px solid #ddd;
-
-border-radius:10px;
-
-}
-
-
-.recharge button{
-
-width:100%;
-
-padding:15px;
-
-background:#009c2a;
-
-border:none;
-
-color:white;
-
-font-size:18px;
-
-border-radius:10px;
-
-cursor:pointer;
-
-}
-
-
-
-.whatsapp{
-
-position:fixed;
-
-bottom:25px;
-
-right:25px;
-
-z-index:999;
-
-}
-
-
-.whatsapp img{
-
-width:65px;
-
 }
 
 /* HERO */
@@ -586,9 +63,9 @@ width:65px;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:80px;
-background:linear-gradient(135deg,#021a52,#004cff);
-color:#fff;
+padding:80px 5%;
+background:linear-gradient(135deg,#021a52,#005cff);
+color:white;
 gap:40px;
 }
 
@@ -597,13 +74,14 @@ width:55%;
 }
 
 .hero-left h1{
-font-size:58px;
+font-size:60px;
 line-height:1.2;
+margin-bottom:20px;
 }
 
 .hero-left p{
-font-size:20px;
-margin:20px 0;
+font-size:22px;
+margin-bottom:30px;
 }
 
 .hero-right{
@@ -611,37 +89,39 @@ width:35%;
 background:#03298f;
 padding:30px;
 border-radius:20px;
-color:white;
+}
+
+.hero-right h2{
+margin-bottom:20px;
 }
 
 .hero-right ul{
 list-style:none;
-line-height:2.4;
-font-size:18px;
 padding:0;
+line-height:2.2;
+font-size:18px;
 }
 
 /* BUTTONS */
 
-.btn{
+.btn,
+.btn2{
 padding:15px 35px;
-background:#00a2ff;
 border-radius:40px;
 text-decoration:none;
-color:white;
 font-weight:bold;
 display:inline-block;
 }
 
+.btn{
+background:#00a2ff;
+color:white;
+}
+
 .btn2{
-padding:15px 35px;
 background:white;
-border-radius:40px;
-text-decoration:none;
-margin-left:20px;
-font-weight:bold;
 color:#005bff;
-display:inline-block;
+margin-left:15px;
 }
 
 /* LOGIN */
@@ -650,15 +130,15 @@ display:inline-block;
 display:flex;
 justify-content:center;
 gap:15px;
-margin:40px 0;
+margin:50px 0;
 }
 
 .login,
 .agent{
 padding:14px 25px;
 border-radius:10px;
-color:white;
 text-decoration:none;
+color:white;
 }
 
 .login{
@@ -681,13 +161,17 @@ box-shadow:0 5px 30px rgba(0,0,0,.1);
 text-align:center;
 }
 
+.recharge h2{
+margin-bottom:25px;
+color:#021f7a;
+}
+
 .recharge input{
 width:100%;
 padding:15px;
-margin:15px 0;
+margin:12px 0;
 border:1px solid #ddd;
 border-radius:10px;
-box-sizing:border-box;
 }
 
 .recharge button{
@@ -701,41 +185,100 @@ border-radius:10px;
 cursor:pointer;
 }
 
+/* PLANS */
+
+.plans{
+padding:80px 5%;
+text-align:center;
+}
+
+.plans h2{
+font-size:40px;
+margin-bottom:50px;
+color:#021f7a;
+}
+
+.cards{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 5px 25px rgba(0,0,0,.08);
+font-size:28px;
+font-weight:bold;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
 /* OTT */
 
 .ott{
-padding:60px;
+padding:80px 5%;
 text-align:center;
+background:white;
+}
+
+.ott h2{
+font-size:40px;
+margin-bottom:40px;
+color:#021f7a;
 }
 
 .ottgrid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+grid-template-columns:
+repeat(auto-fit,minmax(140px,1fr));
 gap:30px;
 align-items:center;
 }
 
 .ottgrid img{
-width:120px;
+width:110px;
 margin:auto;
 display:block;
+transition:.3s;
+}
+
+.ottgrid img:hover{
+transform:scale(1.1);
 }
 
 /* CONTACT */
 
 .contact{
-padding:60px;
+padding:80px 5%;
+background:#021f7a;
+color:white;
 text-align:center;
-background:#f7f7f7;
+}
+
+.contact h2{
+font-size:42px;
+margin-bottom:25px;
+}
+
+.contact p{
+font-size:20px;
+line-height:2;
 }
 
 /* FOOTER */
 
 footer{
-background:#021a52;
+background:#01114e;
 color:white;
-padding:20px;
+padding:25px;
 text-align:center;
+font-size:15px;
 }
 
 /* WHATSAPP */
@@ -749,4 +292,62 @@ z-index:999;
 
 .whatsapp img{
 width:65px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.topbar{
+flex-direction:column;
+gap:10px;
+text-align:center;
+}
+
+.navbar{
+flex-direction:column;
+gap:20px;
+}
+
+.navbar ul{
+flex-direction:column;
+text-align:center;
+gap:15px;
+}
+
+.hero{
+flex-direction:column;
+padding:50px 20px;
+text-align:center;
+}
+
+.hero-left,
+.hero-right{
+width:100%;
+}
+
+.hero-left h1{
+font-size:42px;
+}
+
+.hero-left p{
+font-size:18px;
+}
+
+.btn,
+.btn2{
+display:block;
+margin:10px auto;
+}
+
+.loginbox{
+flex-direction:column;
+align-items:center;
+}
+
+.recharge{
+width:90%;
+padding:30px;
+}
+
 }
